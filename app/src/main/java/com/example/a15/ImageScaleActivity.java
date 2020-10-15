@@ -40,7 +40,7 @@ public class ImageScaleActivity extends AppCompatActivity implements View.OnClic
         } else if (v.getId() == R.id.btn_centerCrop) {
             // 将拉伸类型设置为“拉伸图片使其充满视图，并位于视图中间”
             iv_scale.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        } else if (v.getId() == R.id.btn_centerInside) {s
+        } else if (v.getId() == R.id.btn_centerInside) {
             // 将拉伸类型设置为“保持宽高比例，缩小图片使之位于视图中间（只缩小不放大）”
             iv_scale.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
         } else if (v.getId() == R.id.btn_fitXY) {
